@@ -1,46 +1,69 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: About Jordan Bach | He uses code to solve problems you didn't know you had
+---
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="jbgo.github.com : bee-lawwwwg" />
+<div class="page-header">
+  <h1>Jordan Bach <small>Intuitive :: Inquisitive :: Intelligent</small></h1>
+</div>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<div class="row" style="clear: both">
 
-    <title>jbgo.github.com</title>
-  </head>
+  <div class="col-md-8">
+    <ul class="posts">
+      {% for post in paginator.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
 
-  <body>
+    <p class="text-center">
+      {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path }}">Previous Page</a>{% endif %}
+      {% if paginator.next_page %}<a href="{{ paginator.next_page_path }}">Next Page</a>{% endif %}
+    </p>
+  </div>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/jbgo">View on GitHub</a>
+  <div class="col-md-4">
+    <div class="well">
+      <h4>Favorite outdoor activities</h4>
 
-          <h1 id="project_title">jbgo.github.com</h1>
-          <h2 id="project_tagline">bee-lawwwwg</h2>
-
-        </header>
+      <ul>
+      <li>Basketball</li>
+      <li>Backpacking</li>
+      <li>Cycling</li>
+      <li>Running</li>
+      <li>Kayaking</li>
+      </ul>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>jbgo</h3>
+    <div class="well">
+      <h4>Top 10 ways I will get on your nerves*</h4>
 
-<p>Yo.</p>
-      </section>
+      <ul>
+      <li>I like to tell cheesy jokes</li>
+      <li>I laugh at my own jokes</li>
+      </ul>
+
+      <p class="text-muted">
+      * If you have to ask why there are only 2 reasons in this list,
+      then you just missed one of my cheesy jokes.
+      </p>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="well">
+      <h4>I&#39;ve made a few websites</h4>
+
+      <ul>
+      <li><a href="http://guitarslingertx.com/">Guitar Slinger</a> - If you live in Dallas, you want this man to fix your guitars, especially if they&#39;re of the vintage variety.</li>
+      </ul>
     </div>
 
-    
+    <div class="well">
+      <h4>I can be professional</h4>
 
-  </body>
-</html>
+      <p>I work for AutoRevo.</p>
+
+      <p>In the past I have worked for myself, ReelFX, VisualApp, Berklee College of Music MP&amp;E department.</p>
+    </div>
+  </div>
+</div>
+
