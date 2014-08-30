@@ -19,3 +19,30 @@
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
+#footer {
+  color: #ccc;
+  background: #333;
+  border-top: 1px solid #000;
+  margin-top: 3em;
+  padding-bottom: 3em;
+}
+
+#footer img, #footer p {
+  margin-right: 1em;
+}
+
+#footer a, #footer a:visited {
+  color: #ccc;
+}
+
+#footer h3 {
+  text-shadow: 1px 1px #000;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 10px 0 10px 20px;
+  border-left: 1px solid #545454;
+  margin-top: 44px;
+}
