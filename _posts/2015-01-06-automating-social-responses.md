@@ -3,7 +3,8 @@ layout: post
 title: Automating social responses
 ---
 
-Yesterday I posted my elevator pitch. I called it my new elevetor pitch because that sounded good
+Yesterday I posted [my elevator pitch]({% post_url 2015-01-05-elevator-pitch %}).
+I called it my new elevetor pitch because that sounded good
 to me, but in reality, I've never had an elevator pitch. That got me thinking about other situations
 where having some canned responses to common questions, like "what do you do?" or "how are you?"
 
