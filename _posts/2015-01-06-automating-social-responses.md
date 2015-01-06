@@ -4,9 +4,9 @@ title: Automating social responses
 ---
 
 Yesterday I posted [my elevator pitch]({% post_url 2015-01-05-elevator-pitch %}).
-I called it my new elevetor pitch because that sounded good
-to me, but in reality, I've never had an elevator pitch. That got me thinking about other situations
-where having some canned responses to common questions, like "what do you do?" or "how are you?"
+I called it my new elevetor pitch because that sounded good to me, but in reality, I've never had
+an elevator pitch. That got me thinking about other situations where having some canned responses
+to common questions, like "what do you do?" or "how are you?" would be helpful.
 
 The truth is, I am not very good with social responses. I may not smile when I see you, or I may
 give you a strange reply to some bit of small talk. For example, someone might ask me "Can you
