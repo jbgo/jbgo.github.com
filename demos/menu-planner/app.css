@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #dfdfdf; }
+
+
+
+
+.mp-header {
+  color: #fff;
+  background: #2D8825;
+  float: left;
+  width: 100%; }
+
+  .mp-header a {
+    color: #fff;
+    text-decoration: none; }
+
+  .mp-header h1 {
+    margin-top:0; }
+
+  .mp-header .brand {
+    float: left;
+    margin: 0.4em;
+    padding: 0 0.1em;
+    border: 1px solid #fff;
+    border-radius: 8px; }
+
+  .mp-header .week-summary {
+    text-align: center; }
+
+
+.workspace {
+  width: 100%;
+  overflow: scroll;
+  clear: both;
+  margin-left: -1px; }
+
+
+.timeline {
+  clear: both;
+  float: left;
+  background: #fff;
+  width: 1842px; }
+
+  .timeline ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+
+  .timeline li {
+    display: inline-block; }
+
+.day-col {
+  width: 250px;
+  padding: 3px 6px;
+  border-left: 1px solid #dfdfdf;
+  float: left;
+  height: 100%; }
+
+.meal-cards {
+  width: 1842px;
+  float: left;
+  height: 100%; }
+
+.meal-type-row {
+  clear: both; }
+
+.meal-card {
+  margin: 12px 0;
+  background: #fff;
+  padding-bottom: 18px;
+  border-radius: 6px; }
+
+  .meal-card-header {
+    background: #2d8825;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 6px 6px 0 0; }
+
+  .meal-card h3 {
+    margin: 0;
+    padding: 0;
+    cursor: move; }
+
+  .meal-card-close {
+    cursor: pointer;
+    float: right; }
+
+  .meal-card ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    margin: 12px 6px 0 2em; }
+
+  .meal-card li {
+    padding: 2px 6px; }
+
+  .meal-card li:hover {
+    background: #DDECFD; }
+
+  .meal-card li.editing:hover {
+    background: #fff; }
+
+  .meal-card .remove-item {
+    display: none; }
+
+  .meal-card li:hover .remove-item {
+    display: inline-block;
+    float: right;
+    color: #f60;
+    cursor: pointer;
+    padding: 0 3px; }
+
+  .meal-card li input {
+    width: 185px; }
+
+.add-meal-card ul {
+  list-style: none; }
+
+.add-meal-card a, .add-meal-card a:visited {
+  font-size: smaller;
+  color: #545454;
+  text-decoration: none;
+  text-shadow: 1px 1px #fff;
+}
