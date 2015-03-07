@@ -11,7 +11,7 @@ To test my hypothesis, I created a small, single-page menu planning application 
 two libraries would work together.
 
 - [source code](https://github.com/jbgo/menu-planner/tree/131f8d0aff9a8315699eb51fabc6fea45f4faa5e/public/app)
-- [demo](/demos/menu-planner/)
+- demo coming soon
 
 ## Application structure
 
