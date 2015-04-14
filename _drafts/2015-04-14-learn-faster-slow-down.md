@@ -3,13 +3,13 @@ layout: post
 title: Want to learn faster? slow down!
 ---
 
-I've always considered myself a fast learner.  Yesterday, a friend of mine surprised me by telling me he thought of himself as a slow learner. We are coworkers with the same job function, software developer, and learning is vital to our success in this position.
+I've always considered myself a fast learner.  Yesterday, a friend of mine surprised me by telling me he thought of himself as a slow learner. Having seen is growth first hand over the past 6 months, I know this is simply not true. When I sat down to analyze and improve my learning methods and discovered that I am also a slow learner.
 
 As a software developer, you are always learning something new. You may be building something you've never built before and need to acquire domain expertise, or you are introducing a new, shiny, NoSQL database that you've never used before. So when you come across [sexy techniques to increase your learning speed](http://fourhourworkweek.com/2013/05/20/accelerated-learning-techniques/) you jump all over them. If you listen to the opening of that, I wouldn't call getting to the top 5% in 6-12 months speed learning. In fact, you'll probably spend the next 5-10 years getting into the top 1%. I'm not saying that those techniques don't work (maybe they are actually very good). For example, speed reading sounds like a great way to learn faster, but if you think you can read a freshman calculus textbook at 1,200 WPM and pass the exam afterwards (assuming you don't already know calculus) [you may be mistaken](http://lifehacker.com/the-truth-about-speed-reading-1542508398). I'm just saying that I've found the same few techniques, applied in healthy doses, consistently, over a long period of time add up to a huge ocean of knowledge. It's kind of like compound interest for your mind.
 
 
 
-Enough talking. Here is the system I use to learn faster. There are six techniques, but they make up one system of learning. You will notice that seem very efficient, but they do result in knowledge and skills getting stuck in your head for long periods of time.
+Enough talking. Here is the system I use to learn faster. There are six techniques, but they make up one system of learning. You will notice that seem very inefficient, but the seem to work well for me when I have the patience to actually follow through.
 
 ### Slow down!
 
