@@ -4,3 +4,11 @@ markdown: redcarpet
 redcarpet:
   extensions:
     - no_intra_emphasis
+
+exclude:
+  - ansible.cfg
+  - deploy
+  - upload
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile

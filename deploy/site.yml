@@ -1,0 +1,36 @@
+---
+- name: Deploy opensolitude.com
+  hosts: guitarslinger
+  gather_facts: no
+
+  vars:
+    site_root: /var/www/opensolitude.com
+
+  handlers:
+    - name: reload nginx
+      service: name=nginx state=restarted
+      sudo: yes
+
+  tasks:
+    - name: nginx site configuration
+      template: src=nginx.conf dest=/etc/nginx/sites-available/opensolitude.com.conf
+      notify: reload nginx
+      sudo: yes
+
+    - name: enable site
+      file: >
+        src=/etc/nginx/sites-available/opensolitude.com.conf
+        dest=/etc/nginx/sites-enabled/opensolitude.com.conf
+        state=link
+      notify: reload nginx
+      sudo: yes
+
+    - name: generate site
+      local_action: shell jekyll build chdir=../
+
+    - name: ensure site directory
+      file: dest={{site_root}} state=directory owner=jordan group=jordan
+      sudo: yes
+
+    - name: upload site
+      synchronize: src=../_site/ dest={{site_root}}
